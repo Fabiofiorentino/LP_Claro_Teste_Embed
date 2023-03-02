@@ -1,0 +1,927 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+header {
+    background: #EF1A2C;
+    width: 100%;
+    padding: 10px 15%;
+}
+
+footer {
+    background: #EF1A2C;
+    width: 100%;
+    padding: 0.5rem 15%;
+}
+
+.div-info {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.cadastre-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.cadastre-div p {
+    margin: 0 5px;
+
+}
+
+.cell-number-desktop {
+    display: flex; 
+    align-items: center;
+}
+
+.cell-number-mobile {
+    display: none;
+}
+
+span {
+    font-family: 'AMX';
+    font-weight: 700;
+    color: #FFC107;
+}
+
+.purchase-btn {
+
+    font-size: 12px;
+    background: #FFC107;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin: 0 20px;
+    width: 76px;
+}
+
+.section-2 {
+    padding-top: 150px;
+}
+
+.prev {
+    display: none;
+}
+
+.next {
+    display: none;
+}
+
+.social-midia {
+    display: flex;
+    align-items: center;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+}
+
+.lorem-ipsum {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    font-size: 8px;
+    text-align: center;
+}
+
+.lorem-ipsum p {
+    max-width: 800px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.background-red-div {
+   position: relative;
+   overflow: hidden;
+}
+
+.background-red-img {
+    width: 100%;
+    max-height: 640px;
+    object-fit: cover;
+}
+
+.borda-dourada-top {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    max-height: 15px;
+}
+
+.borda-dourada-bottom {
+    position: absolute;
+    z-index: 999;
+    bottom: 0;
+    width: 100%;
+    max-height: 15px;
+}
+
+.bola-dourada-section-3 {
+    position: absolute;
+    width: 750px;
+    left: -12%;
+    bottom: -50%;
+}
+
+.pontinhos-dourados-1 {
+    position: absolute;
+    max-width: 500px;
+    bottom: 0%;
+    margin-left: 250px;
+}
+.pontinhos-dourados-2 {
+    position: absolute;
+    max-width: 500px;
+    top: 0%;
+    right: 0%;
+}
+
+.pessoa-torcendo {
+    position: absolute;
+    max-width: 300px;
+    bottom: 0%;
+    margin-left: 160px;
+    margin-bottom: 10px;
+    z-index: 9999 ;
+}
+
+.rabisco-tatica {
+    position: absolute;
+    max-width: 250px;
+    transform: rotate(-85deg);
+    right: 5%;
+    margin-top: 15px;
+}
+
+.text-container {
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.text-div-1 {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.participe-da-promocao {
+    font-family: 'AMX';
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.imagens-topo-text-div-2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.area-desenhada {
+    max-width: 45px;
+    transform: rotate(180deg);
+}
+
+.h1-section-3 {
+    font-family: 'AMX';
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.h2-div {
+    display: flex;
+    position: relative;
+}
+
+.h2-div h2 {
+    font-family: 'AMX';
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.rota-aviao {
+    position: absolute;
+    right: -5%;
+   margin-top: 15px;
+}
+
+.ticket-slider-container {
+    position: relative;
+    padding: 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.ticket-cards-container {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+    width: 100%;
+}
+
+.ticket-card {
+    height: 300px;
+    width: 200px;
+    background-image: url(./assets/moldura-sorteio);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.circulo-riscado {
+    width: 60px;
+    position: absolute;
+    top: 5%;
+}
+
+.num-ticket {
+    font-family: 'AMX';
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.title-ticket {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.description-ticket {
+    font-family: 'AMX';
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}   
+
+.canais-div p{
+    max-width: 220px;
+    margin-right: 30px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.canais-logos {
+    max-width: 300px;
+    border: #EF1A2C 1px solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.channel-logo-div {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+}
+
+.channel-logo {
+    width: 100%;
+}
+
+.circulo-vermelho {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: linear-gradient(180deg, rgb(216, 8, 8), rgb(87, 4, 4));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.vantagens-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 15px;
+}
+
+.vantagens-div p{
+    max-width: 550px;
+    font-weight: 700;
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.icons-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.icons-div p {
+    max-width: 95px;
+    font-size: xx-small;
+    text-align: center;
+}
+
+.circulo-preto {
+    width: 35px; 
+    height: 35px; 
+    border-radius:100%; 
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.line-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 700px;
+    border: rgba(0, 0, 0, 0.5) solid 1px;
+}
+
+.bola-dourada-section-1 {
+    position: absolute;
+    width: 330px;
+    bottom: 8%;
+    margin-left: 100px;
+}
+
+.pontinhos-dourados-1-section-1 {
+    position: absolute;
+    max-width: 500px;
+    top: -15%;
+    left: -30%;
+}
+.pontinhos-dourados-2-section-1 {
+    position: absolute;
+    max-width: 500px;
+    bottom: -20%;
+    right: -20%;
+}
+
+.meio-circulo-1 {
+    position: absolute;
+    max-width: 100px;
+
+}
+.meio-circulo-2 {
+    position: absolute;
+    max-width: 100px;
+    right: 0%;
+    transform: rotate(90deg);
+}
+
+.black-stars-top {
+    position: absolute;
+    right: 7%;
+    top: 6%;
+}
+
+.arbitro {
+    position: absolute;
+    max-width: 300px;
+    margin: 10px 0 0 230px;
+}
+
+.bandeirola {
+    position: absolute;
+    max-width: 250px;
+    bottom: 30%;
+    margin-left: 450px;
+}
+
+.pessoas-sofa {
+    position: absolute;
+    max-width: 400px;
+    bottom: 0%;
+    margin-left: 200px;
+}
+
+.ta-na-claro {
+    position: absolute;
+    max-width: 350px;
+    right: 20%;
+    top: 5%;
+
+}
+
+.gold-stars {
+    position: absolute;
+    max-width: 100px;
+    top: 20%;
+    right: 40%;
+}
+
+.combo-board-container {
+    width: 350px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 20px;
+    position: absolute;
+    right: 21%;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.combo-board {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: AMX;
+}
+
+.combo-nomes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-combo {
+   
+    height: 100px;
+    border: white solid 1px;
+    margin: 0 15px;
+}
+
+.valor-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-container {
+    z-index: 99999; 
+    position: absolute; 
+    margin-top: -300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.cards-combos-container {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+
+.cards-combos {
+    width: 200px;
+    height: 260px;
+    background: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 2px 16px -10px rgba(0,0,0,0.62);
+    -moz-box-shadow: 1px 2px 16px -10px rgba(0,0,0,0.62);
+    box-shadow: 1px 2px 16px -10px rgba(0,0,0,0.62);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'AMX';
+    padding: 15px;
+}
+
+.line-gray {
+    width: 100%;
+    height: 0;
+    border: 1px solid gray;
+    opacity: 0.3;
+}
+
+.combo-valores-div {
+    display: flex;
+    color: #EF1A2C;
+    font-family: 'AMX';
+    align-items: center;
+}
+
+@media (max-width: 801px) {
+
+    header {
+        padding: 10px;
+    }
+
+    .background-red-div {
+        height: 840px;
+        background-image: url(./assets/background-gradiente-red);
+    }
+
+    .background-red-img {
+        display: none;
+    }
+    .pontinhos-dourados-1-section-1 {
+        display: none;
+    }
+    .pontinhos-dourados-2-section-1 {
+        position: absolute;
+        max-width: 500px;
+        top: 10%;
+        right: -50%;
+    }
+
+    .arbitro {
+        bottom: 31%;
+        margin: 0 0 0 230px;
+    }
+
+    .bandeirola {
+        bottom: 20%;
+    }
+
+    .meio-circulo-1 {
+        width: 50px;
+    }
+
+    .meio-circulo-2 {
+        width: 50px;
+    }
+
+    .black-stars-top {
+        width: 100px;
+        top: 2%;
+    }
+
+    .section-2 {
+        position: relative; 
+    }
+
+    .cards-container-wrapper {
+        overflow-x: auto;
+    }
+
+    .slider-container {
+        width: 100%;
+        max-width: 800px;
+        position: relative;
+        padding: 25px 15px;
+    }
+
+    .cards-combos {
+        flex-shrink: 0;
+    }
+
+    .combo-board-container {
+        right: 25%;
+        top: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ta-na-claro {
+        right: 25%;
+        top: 1%;
+    
+    }
+
+    .gold-stars {
+        top: 11%;
+        right: 58%;
+    }
+
+    .canais-div {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .canais-div p{
+        margin: 0 0 20px 0;
+    }
+
+    .vantagens-h1-div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vantagens-h1 {
+        max-width: 350px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .text-div-app-claro p{
+        max-width: 400px;
+    }
+
+    .icons-div {
+        max-width: 95px;
+    }
+
+    .pessoa-torcendo {
+        display: none;
+    }
+
+    .text-container {
+        flex-direction: column;
+    }
+
+    .area-desenhada {
+        display: none;
+    }
+
+    .black-stars {
+        display: none;
+    }
+
+    .bola-dourada-section-3 {
+        width: 350px;
+        left: -20%;
+        top: -5%;
+    }
+
+    .text-div-1 {
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .p-participe {
+        display: flex;
+    }
+
+    .ticket-cards-container {
+        justify-content: space-around;
+    }
+
+    .h2-div {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h2-div h2{
+        max-width: 400px;
+    }
+
+    .rota-aviao {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .cell-number-desktop {
+        display: none;
+    }
+
+    .cell-number-mobile {
+        display: flex;
+        align-items: cente;
+        justify-content: center;
+        background: #970a16;
+        padding: 7px;
+    }
+
+    .pontinhos-dourados-2-section-1 {
+        display: none;
+    }
+
+    .meio-circulo-1 {
+        display: none;
+    }
+
+    .meio-circulo-2 {
+        display: none;
+    }
+
+    .black-stars-top {
+        display: none;
+    }
+
+    .background-red-div {
+        padding: 5px;
+    }
+
+    .initials-infos-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        flex-flow: column-reverse;
+    }
+
+    .ta-na-claro {
+        top: 0%;
+        right: 0%;
+        position: relative;
+        width: 300px;
+    }
+
+    .gold-stars {
+        position: relative;
+    }
+
+    .combo-board-container {
+        position: relative;
+        right: 0%;
+        height: auto;
+        width: auto;
+    }
+
+    .combo-board {
+        flex-direction: column;
+    }
+
+    .line-combo {
+        width: 150px;
+        height: 0;
+        margin: 10px 0;
+    }
+
+    .purchase-btn {
+        margin-bottom: -10px;
+    }
+
+    .pessoas-sofa {
+        width: 300px;
+        margin-left: 0;
+    }
+
+    .bola-dourada-section-1 {
+        width: 230px;
+        margin-left: -50px;
+        bottom: 15%;
+    }
+
+    .arbitro {
+        width: 200px;
+        bottom: 27%;
+        margin: 0 0 0 30px;
+    }
+
+    .bandeirola {
+        width: 200px;
+        right: 0%;
+    }
+
+    .slider-container {
+        margin: 0 0 10px 0;
+        max-width: 400px;
+    }
+
+    .section-2 {
+        padding-top: 15px;
+    }
+
+    .vantagens-h1 {
+        max-width: 250px;
+    }
+
+    .vantagens-div {
+        flex-direction: column;
+    }
+
+    .text-div-app-claro {
+        text-align: center;
+        margin-top: 10px;
+        max-width: 250px;
+    }
+
+    .icons-container {
+        justify-content: center;
+    }
+
+    .bola-dourada-section-3 {
+        display: none;
+    }
+
+    .pontinhos-dourados-1 {
+        display: none;
+    }
+
+    .pontinhos-dourados-2 {
+        display: none;
+    }
+
+    .rabisco-tatica {
+        display: none;
+    }
+
+    .text-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h1-section-3 {
+        font-size: 18px;
+    }
+
+    .imagens-topo-text-div-2 {
+        display: none;
+    }
+
+    .ticket-container-wrapper {
+        overflow-x: auto;
+    }
+
+    .ticket-slider-container {
+        width: 100%;
+        max-width: 400px;
+        padding: 25px 15px;
+    }
+
+    .ticket-cards-container {
+        max-width: 400px;
+        overflow-x: auto;
+        justify-content: flex-start;
+    }
+
+    .ticket-card {
+        flex-shrink: 0;
+    }
+
+    .arrows-div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .arrows-div button{
+        width: 30px;
+        height: 30px;
+        background: ghostwhite;
+        border-radius: 5px;
+        color: #EF1A2C;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 5px;
+    }
+
+    .prev {
+        transform: translateY(-50%);
+        background: transparent;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        
+    }
+    
+    .next {
+        transform: translateY(-50%);
+        background: transparent;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    .div-info {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 100%;
+    }
+}
